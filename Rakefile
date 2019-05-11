@@ -12,7 +12,7 @@ end
 
 desc 'configure environment'
 task :environment do
-  require_relative 'config/environment.rb'
+  require_relative './config/environment.rb'
 end
 
 desc 'drop into the Pry console'
